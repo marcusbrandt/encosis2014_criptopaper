@@ -1,4 +1,3 @@
 encosis2014_criptopaper
 =======================
-
-paper
+Artigo baseado em criptografia utilizando imagens, desenvolvido para o Encosis.

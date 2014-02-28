@@ -43,31 +43,53 @@ Centro de Ensino Superior FUCAPI (CESF)\\Av. Gov. Danilo de Mattos Areosa, 381 -
 
 \section{Introdução}
 
-\section{Fundamentação Teórica} \label{sec:firstpage}
+\section{Fundamentação Teórica} \label{sec:fundamentacao}
 
 \subsection{ASCII}
 O ASCII \textit{American Standard Code for Information Interchange} (Código Padrão Americano Para o Intercâmbio de Infromação) é um esquema de codificação inicialmente baseado no alfabeto americano, posteriormente se tornou um esforço para padronização da representação de caracteres pelos fabricantes de computadores.
-\\Cada caracter (pontuação, valores alfanuméricos e valores de controle) é representado por um valor numérico divididos em uma tabela. Originalmente como eram representados apenas caracters americanos, acentuações e letras com essa característica não podiam ser representados, posteriormente a tabela passou por uma revisão e foram criadas 12 novas partes pra suprir essa necessidade.
-\subsection{Imagem}
-Quando digitalizadas as imagens tambem são representadas por números,  
-\subsection{Criptografia}
-\subsubsection{Simétrica}
-\subsubsection{Assimétrica}
-\subsection{Bluetooth}
 
+Cada caracter (pontuação, valores alfanuméricos e valores de controle) é representado por um valor numérico divididos em uma tabela. Originalmente como eram representados apenas caracters americanos, acentuações e letras com essa característica não podiam ser representados, posteriormente a tabela passou por uma revisão e foram criadas 12 novas partes pra suprir essa necessidade.
+
+\subsection{Imagem}
+Quando digitalizadas as imagens são representadas por bits e bytes que são convertidos para números pra representar cada cor de um pixel expecífico, podendo ser representada por uma matriz de pixels(Figura~\ref{fig:exampleFig1}) .  
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.4\textwidth]{images/image.png}
+\caption{Representação de uma imagem digital}
+\label{fig:exampleFig1}
+\end{figure}
+
+\subsection{Criptografia}
+\subsubsection{Chave Simétrica}
+
+\subsubsection{Chave Assimétrica}
+\subsection{Bluetooth}
+Bluetooth é uma tecnologia sem fio para troca de informação em pequenas distâncias baseada em ondas curtas e é padronizada pelo IEEE 802.15.1, foi originalmente concebida para ser alternativa ao RS-232. 
+
+Ele opera em uma faixa de freqência de 2400–2483.5 MHz, utiliza a tecnoligia de rádio chamada de salto de frêquencia em espalhamento espectral (\textit{frequency-hopping spread spectrum}). Baseado em um protocolo de troca de pacotes com estrutura de \textit{master-slave}.
+
+Um servidor Bluetooth pode se comunicar com até 7 devices em uma rede piconet(uma ad-hoc baseada na tecnologia Bluetooth.
 \section{Sistema}
 \subsection{Android}
-O protótipo apresentado neste trabalho foi desenvolvido em Android, por ser uma plataforma popular para desenvolvimento de aplicativos móveis. O Android possui interfaces de programação de aplicativo (APIs), que vêm com o seu Software Development Kit (SDK) e possui recursos completos de interface\cite{android:2014:Online}
-Para este protótipo utilizamos a versão 4.4.2 do Android conhecida como Jelly Beans, por ser a versão mais recente disponível, quando do desenvolvimento deste trabalho. 
+O protótipo apresentado neste trabalho foi desenvolvido em Android, por ser uma plataforma popular para desenvolvimento de aplicativos móveis. O Android possui interfaces de programação de aplicativo (APIs), que vêm com o seu Software Development Kit (SDK) e possui recursos completos de interface\cite{android:2014}.
 
+Para este protótipo utilizamos a versão 4.4.2 do Android conhecida como Jelly Beans, por ser a versão mais recente disponível, quando do desenvolvimento deste trabalho. 
 \subsection{OpenCV}
 O OpenCV é um conjunto de bibliotecas desenvolvidas com o objetivo de provêr visão computacional em tempo real. Desenvolvida originalmente em C mudou sua plataforma para C++ com o objetivo de se tornar mais facil o desenvolvimento de novas funcionalidades, melhor implementação e aplicação de padrõee, com suporte em Python e Java (Android), com suporte em Windows, Linux, iOS, Mac OS e Android.
 \subsection{Java \& JNI}
-\subsection{Processo de Criptografia}
-\subsection{Sistema de Criptografia Utilizando Imagens}
+Java é uma linguagem de programação adotada como padrão no desenvolvimento de aplicativos em Android, é baseada em classes, orientada a objeto e exitem várias APIS (biblioteca) [qual o melhor?] prontas, oferecendo uma sintaxe muito parecida com C e C++ é atualmente a linguagem mais popular do mundo utilizada principalmente em sistemas web cliente-servidor, foi originalmente desenvolvida por James Gosling na Sun Microsystems porteriormente adquirida pela Oracle.
 
-\section{Resultados}
-\section{Conclusão}
+Para comunicações mais baixo nível o java utiliza um artificio de comunicação via callbacks através da sua api de comunicação nativa a JNI (\textit{Java Native Interface})
+\subsection{Processo de Criptografia}
+?????
+\subsection{Sistema de Criptografia Utilizando Imagens}
+Nossa proposta é composta primeiramente por um algoritmo de chave simétrica, pois haverá uma troca de cada caracter por uma correspondente da imagem escolhida. O algoritmo se baseia na seguinte ideia:
+
+*.Uma imagem é representada por pixels que tem valores de 0 até 255 assim como a tabela ASCII que tem valores de 0 à 255 incluindo digítos de controle.
+
+\section{Resultados}\label{sec:resultados}
+\section{Conclusão}\label{sec:conclusao}
 
 
 \bibliographystyle{sbc}

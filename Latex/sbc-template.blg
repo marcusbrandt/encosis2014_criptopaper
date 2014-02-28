@@ -1,5 +1,49 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: sbc-template.aux
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: sbc-template.aux
 The style file: sbc.bst
-I found no \citation commands---while reading file sbc-template.aux
 Database file #1: sbc-template.bib
-(There was 1 error message)
+Warning--entry type for "android:2014:Online" isn't style-file defined
+--line 1 of file sbc-template.bib
+You've used 1 entry,
+            1935 wiz_defined-function locations,
+            475 strings with 3760 characters,
+and the built_in function-call counts, 253 in all, are:
+= -- 24
+> -- 7
+< -- 1
++ -- 2
+- -- 2
+* -- 15
+:= -- 54
+add.period$ -- 2
+call.type$ -- 1
+change.case$ -- 6
+chr.to.int$ -- 1
+cite$ -- 1
+duplicate$ -- 10
+empty$ -- 16
+format.name$ -- 3
+if$ -- 44
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 7
+num.names$ -- 3
+pop$ -- 4
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 10
+stack$ -- 0
+substring$ -- 12
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 6
+warning$ -- 0
+while$ -- 2
+width$ -- 0
+write$ -- 12
+(There was 1 warning)

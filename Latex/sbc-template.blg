@@ -3,4 +3,5 @@ The style file: sbc.bst
 Database file #1: sbc-template.bib
 Warning--entry type for "android:2014" isn't style-file defined
 --line 1 of file sbc-template.bib
-(There was 1 warning)
+Warning--empty journal in mikhail:2010
+(There were 2 warnings)

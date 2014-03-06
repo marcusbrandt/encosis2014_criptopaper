@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.27)  28 FEB 2014 15:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.27)  6 MAR 2014 16:17
 entering extended mode
 **sbc-template.tex
 
@@ -458,7 +458,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 File: images/image.png Graphic file (type png)
  <use images/image.png>
 Package pdftex.def Info: images/image.png used on input line 58.
-(pdftex.def)             Requested size: 170.71393pt x 163.016pt.
+(pdftex.def)             Requested size: 128.0387pt x 122.26596pt.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 59.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
@@ -468,32 +468,68 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 59.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <C:/Users/marcus.gb/Do
-cuments/testeGit/encosis2014_criptopaper/Latex/images/image.png>]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<images/process_sim.png, id=13, 571.38469pt x 149.8097pt>
+File: images/process_sim.png Graphic file (type png)
+
+<use images/process_sim.png>
+Package pdftex.def Info: images/process_sim.png used on input line 73.
+(pdftex.def)             Requested size: 298.75264pt x 78.32893pt.
+
+<images/process_assim.png, id=14, 363.60844pt x 87.32625pt>
+File: images/process_assim.png Graphic file (type png)
+
+<use images/process_assim.png>
+Package pdftex.def Info: images/process_assim.png used on input line 84.
+(pdftex.def)             Requested size: 298.75264pt x 71.75189pt.
+ [2 <C:/Users/marcus.gb/Documents/testeGit/encosis2014_criptopaper/Latex/images
+/image.png> <C:/Users/marcus.gb/Documents/testeGit/encosis2014_criptopaper/Late
+x/images/process_sim.png>] [3 <C:/Users/marcus.gb/Documents/testeGit/encosis201
+4_criptopaper/Latex/images/process_assim.png>]
+<images/process_encrypt.png, id=22, 389.20406pt x 356.0803pt>
+File: images/process_encrypt.png Graphic file (type png)
+
+<use images/process_encrypt.png>
+Package pdftex.def Info: images/process_encrypt.png used on input line 115.
+(pdftex.def)             Requested size: 384.1096pt x 351.4285pt.
+
+<images/process_decrypt.png, id=23, 390.70969pt x 478.78876pt>
+File: images/process_decrypt.png Graphic file (type png)
+
+<use images/process_decrypt.png>
+Package pdftex.def Info: images/process_decrypt.png used on input line 126.
+(pdftex.def)             Requested size: 384.1096pt x 470.72206pt.
+
 (C:\Users\marcus.gb\Documents\testeGit\encosis2014_criptopaper\Latex\sbc-templa
-te.bbl) [3]
+te.bbl [4 <C:/Users/marcus.gb/Documents/testeGit/encosis2014_criptopaper/Latex/
+images/process_encrypt.png>]) [5] [6 <C:/Users/marcus.gb/Documents/testeGit/enc
+osis2014_criptopaper/Latex/images/process_decrypt.png>]
 (C:\Users\marcus.gb\Documents\testeGit\encosis2014_criptopaper\Latex\sbc-templa
-te.aux) ) 
+te.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2867 strings out of 493921
- 38611 string characters out of 3144864
- 102513 words of memory out of 3000000
- 6113 multiletter control sequences out of 15000+200000
+ 2894 strings out of 493921
+ 39242 string characters out of 3144864
+ 103581 words of memory out of 3000000
+ 6136 multiletter control sequences out of 15000+200000
  21033 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 30i,8n,28p,500b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/u
-tmri8a.pfb>
-Output written on sbc-template.pdf (3 pages, 109944 bytes).
+ 30i,8n,28p,575b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/tim
+es/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on sbc-template.pdf (6 pages, 265850 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

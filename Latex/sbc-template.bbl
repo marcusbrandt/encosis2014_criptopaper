@@ -1,7 +1,17 @@
 \begin{thebibliography}{}
 
-\bibitem[Developers 2014]{android:2014}
-Developers, A. (2014).
+\bibitem[Android 2014]{android:2014}
+Android, D. (2014).
 \newblock Develop. android developers.
+
+\bibitem[Gadelha 2010]{mikhail:2010}
+Gadelha, M. Y.~R. (2010).
+\newblock Estudo de métodos de criptografia de dados utilizando imagens.
+
+\bibitem[M.~Y. R.~Gadelha 2012]{yasha:2012}
+M.~Y. R.~Gadelha, C. F. F. Costa~Filho, M. G. F.~C. (2012).
+\newblock Proposal of a cryptography method using gray scale digital images.
+\newblock {\em The 7th International Conference for Internet Technology and
+  Secured Transactions}.
 
 \end{thebibliography}
